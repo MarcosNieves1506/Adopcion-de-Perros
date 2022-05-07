@@ -1,0 +1,18 @@
+#redes{
+    display: flex;
+    justify-content: center;
+    background-color: #A8EE59;
+}
+.rede{
+    width: 10%;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+        &:hover{
+        background-color: #a1e9a4 ;
+        color: #A8EE59;
+        transition-duration: 0.6s;
+        }
+    }
